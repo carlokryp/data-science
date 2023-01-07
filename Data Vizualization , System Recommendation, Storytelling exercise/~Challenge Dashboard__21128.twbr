@@ -1,0 +1,1422 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20214.22.0108.1039                               -->
+<workbook original-version='18.1' source-build='2021.4.3 (20214.22.0108.1039)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+    <ZoneBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style-theme name='classic' />
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='test_challenge' inline='true' name='federated.0m3qgp01gc3ed811t6zk807poeth' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='test_challenge' name='textscan.094alq70k4ntn8171mn3d19sut2q'>
+            <connection class='textscan' directory='C:/Users/Csanch05/OneDrive - Grupo Aeroméxico/Documentos/proyectos/Propuestas Internas/ejercicio' filename='test_challenge.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.094alq70k4ntn8171mn3d19sut2q' name='test_challenge.csv' table='[test_challenge#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_MX' separator=','>
+            <column datatype='integer' name='show_id' ordinal='0' />
+            <column datatype='string' name='type' ordinal='1' />
+            <column datatype='string' name='title' ordinal='2' />
+            <column datatype='string' name='director' ordinal='3' />
+            <column datatype='string' name='cast' ordinal='4' />
+            <column datatype='string' name='country' ordinal='5' />
+            <column datatype='date' name='date_added' ordinal='6' />
+            <column datatype='integer' name='release_year' ordinal='7' />
+            <column datatype='string' name='rating' ordinal='8' />
+            <column datatype='string' name='duration' ordinal='9' />
+            <column datatype='string' name='listed_in' ordinal='10' />
+            <column datatype='string' name='description' ordinal='11' />
+            <column datatype='integer' name='num_artist' ordinal='12' />
+            <column datatype='real' name='year' ordinal='13' />
+            <column datatype='real' name='month' ordinal='14' />
+            <column datatype='real' name='day' ordinal='15' />
+            <column datatype='string' name='duration_range' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.094alq70k4ntn8171mn3d19sut2q' name='test_challenge.csv' table='[test_challenge#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='es_MX' separator=','>
+            <column datatype='integer' name='show_id' ordinal='0' />
+            <column datatype='string' name='type' ordinal='1' />
+            <column datatype='string' name='title' ordinal='2' />
+            <column datatype='string' name='director' ordinal='3' />
+            <column datatype='string' name='cast' ordinal='4' />
+            <column datatype='string' name='country' ordinal='5' />
+            <column datatype='date' name='date_added' ordinal='6' />
+            <column datatype='integer' name='release_year' ordinal='7' />
+            <column datatype='string' name='rating' ordinal='8' />
+            <column datatype='string' name='duration' ordinal='9' />
+            <column datatype='string' name='listed_in' ordinal='10' />
+            <column datatype='string' name='description' ordinal='11' />
+            <column datatype='integer' name='num_artist' ordinal='12' />
+            <column datatype='real' name='year' ordinal='13' />
+            <column datatype='real' name='month' ordinal='14' />
+            <column datatype='real' name='day' ordinal='15' />
+            <column datatype='string' name='duration_range' ordinal='16' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;es&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;es_MX&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>show_id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[show_id]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>show_id</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[type]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>type</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>title</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[title]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>title</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>director</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[director]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>director</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>cast</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[cast]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>cast</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[country]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>country</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>date_added</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[date_added]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>date_added</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>release_year</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[release_year]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>release_year</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rating</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rating]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>rating</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duration</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[duration]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>duration</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>listed_in</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[listed_in]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>listed_in</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>description</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[description]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>description</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>num_artist</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[num_artist]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>num_artist</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[year]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>year</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>month</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[month]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>month</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>day</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>duration_range</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[duration_range]</local-name>
+            <parent-name>[test_challenge.csv]</parent-name>
+            <remote-alias>duration_range</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LES_RES' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='test_challenge.csv' datatype='table' name='[__tableau_internal_object_id__].[test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E]' role='measure' type='quantitative' />
+      <column caption='Cast' datatype='string' name='[cast]' role='dimension' type='nominal' />
+      <column caption='Country' datatype='string' name='[country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column caption='Date Added' datatype='date' name='[date_added]' role='dimension' type='ordinal' />
+      <column caption='Day' datatype='real' name='[day]' role='dimension' type='quantitative' />
+      <column caption='Description' datatype='string' name='[description]' role='dimension' type='nominal' />
+      <column caption='Director' datatype='string' name='[director]' role='dimension' type='nominal' />
+      <column caption='Duration' datatype='string' name='[duration]' role='dimension' type='nominal' />
+      <column caption='Duration Range' datatype='string' name='[duration_range]' role='dimension' type='nominal' />
+      <column caption='Listed In' datatype='string' name='[listed_in]' role='dimension' type='nominal' />
+      <column caption='Month' datatype='real' name='[month]' role='dimension' type='quantitative' />
+      <column caption='Num Artist' datatype='integer' name='[num_artist]' role='measure' type='quantitative' />
+      <column caption='Rating' datatype='string' name='[rating]' role='dimension' type='nominal' />
+      <column caption='Release Year' datatype='integer' name='[release_year]' role='dimension' type='quantitative' />
+      <column caption='Show Id' datatype='integer' name='[show_id]' role='dimension' type='ordinal' />
+      <column caption='Title' datatype='string' name='[title]' role='dimension' type='nominal' />
+      <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+      <column caption='Year' datatype='real' name='[year]' role='dimension' type='quantitative' />
+      <column-instance column='[Rating conjunto]' derivation='InOut' name='[io:Rating conjunto:nk]' pivot='key' type='nominal' />
+      <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[date_added]' derivation='Year' name='[yr:date_added:ok]' pivot='key' type='ordinal' />
+      <group caption='Rating conjunto' name='[Rating conjunto]' name-style='unqualified' user:ui-builder='filter-group'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[rating]' member='&quot;TV-14&quot;' />
+          <groupfilter function='member' level='[rating]' member='&quot;TV-MA&quot;' />
+        </groupfilter>
+      </group>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[io:Rating conjunto:nk]' type='palette'>
+            <map to='#4c7cb6'>
+              <bucket>true</bucket>
+            </map>
+            <map to='#a2a2a2'>
+              <bucket>false</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:type:nk]' type='palette'>
+            <map to='#002b40'>
+              <bucket>&quot;Movie&quot;</bucket>
+            </map>
+            <map to='#027190'>
+              <bucket>&quot;TV Show&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Estados Unidos Mexicanos&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <filter class='categorical' column='[rating]' filter-group='2'>
+        <groupfilter from='&quot;G&quot;' function='range' level='[rating]' to='&quot;UR&quot;' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='quantitative' column='[release_year]' filter-group='2' included-values='in-range'>
+        <min>2015</min>
+        <max>2020</max>
+      </filter>
+      <filter class='categorical' column='[yr:date_added:ok]' filter-group='2'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[yr:date_added:ok]' member='2015' />
+          <groupfilter function='member' level='[yr:date_added:ok]' member='2016' />
+          <groupfilter function='member' level='[yr:date_added:ok]' member='2017' />
+          <groupfilter function='member' level='[yr:date_added:ok]' member='2018' />
+          <groupfilter function='member' level='[yr:date_added:ok]' member='2019' />
+          <groupfilter function='member' level='[yr:date_added:ok]' member='2020' />
+        </groupfilter>
+      </filter>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='test_challenge.csv' id='test_challenge.csv_252D9DBA749542AD88E0FBD0E78C6F6E'>
+            <properties context=''>
+              <relation connection='textscan.094alq70k4ntn8171mn3d19sut2q' name='test_challenge.csv' table='[test_challenge#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='es_MX' separator=','>
+                  <column datatype='integer' name='show_id' ordinal='0' />
+                  <column datatype='string' name='type' ordinal='1' />
+                  <column datatype='string' name='title' ordinal='2' />
+                  <column datatype='string' name='director' ordinal='3' />
+                  <column datatype='string' name='cast' ordinal='4' />
+                  <column datatype='string' name='country' ordinal='5' />
+                  <column datatype='date' name='date_added' ordinal='6' />
+                  <column datatype='integer' name='release_year' ordinal='7' />
+                  <column datatype='string' name='rating' ordinal='8' />
+                  <column datatype='string' name='duration' ordinal='9' />
+                  <column datatype='string' name='listed_in' ordinal='10' />
+                  <column datatype='string' name='description' ordinal='11' />
+                  <column datatype='integer' name='num_artist' ordinal='12' />
+                  <column datatype='real' name='year' ordinal='13' />
+                  <column datatype='real' name='month' ordinal='14' />
+                  <column datatype='real' name='day' ordinal='15' />
+                  <column datatype='string' name='duration_range' ordinal='16' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Growth by reating for each year'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#555555'>%  of type in</run>
+            <run bold='true' fontalignment='0' fontcolor='#555555'>  &lt;Page Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='test_challenge' name='federated.0m3qgp01gc3ed811t6zk807poeth' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0m3qgp01gc3ed811t6zk807poeth'>
+            <column-instance column='[release_year]' derivation='None' name='[none:release_year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[release_year]' derivation='None' name='[none:release_year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[show_id]' derivation='Count' name='[pcto:cnt:show_id:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='ColumnInPane' type='PctTotal' />
+            </column-instance>
+            <column caption='Release Year' datatype='integer' name='[release_year]' role='dimension' type='quantitative' />
+            <column caption='Show Id' datatype='integer' name='[show_id]' role='dimension' type='ordinal' />
+            <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:qk]' included-values='in-range'>
+            <min>2015</min>
+            <max>2021</max>
+          </filter>
+          <slices>
+            <column>[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:cnt:show_id:qk:2]' value='p0%' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]' />
+              <wedge-size column='[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:cnt:show_id:qk:2]' />
+              <size column='[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:cnt:show_id:qk:2]' />
+              <text column='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]' />
+              <text column='[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:cnt:show_id:qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <pages>
+          <column>[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:ok]</column>
+        </pages>
+      </table>
+      <simple-id uuid='{584F2599-35A9-4BDB-BC88-A35E9B8D14B0}' />
+    </worksheet>
+    <worksheet name='Hoja 6'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{AD4910E7-3E12-4D54-BA13-7E16E3C13A74}' />
+    </worksheet>
+    <worksheet name='Num of id&apos;s by reating'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#555555'>Num of projects for</run>
+            <run bold='true' fontalignment='0' fontcolor='#555555'>Æ </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='test_challenge' name='federated.0m3qgp01gc3ed811t6zk807poeth' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0m3qgp01gc3ed811t6zk807poeth'>
+            <column-instance column='[show_id]' derivation='Count' name='[cnt:show_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[release_year]' derivation='None' name='[none:release_year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[release_year]' derivation='None' name='[none:release_year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
+            <column caption='Release Year' datatype='integer' name='[release_year]' role='dimension' type='quantitative' />
+            <column caption='Show Id' datatype='integer' name='[show_id]' role='dimension' type='ordinal' />
+            <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:qk]' included-values='in-range'>
+            <min>2015</min>
+            <max>2021</max>
+          </filter>
+          <slices>
+            <column>[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]' field-type='quantitative' major-origin='0' major-spacing='300' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]' scope='rows' value='' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]' value='' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <text column='[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]' />
+              <color column='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]' />
+            </encodings>
+            <customized-tooltip show-buttons='false'>
+              <formatted-text>
+                <run fontcolor='#787878'>Release Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Type:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Recuento de Show Id:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run fontalignment='2'>                &lt;</run>
+                <run fontalignment='2'>[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]</run>
+                <run fontalignment='2'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='line-ends' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]</rows>
+        <cols>[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:ok]</cols>
+      </table>
+      <simple-id uuid='{5307F776-75AB-4096-BEEE-EDFB824F1928}' />
+    </worksheet>
+    <worksheet name='Num of series by rating for year'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#555555'>&lt;Sheet Name&gt; :</run>
+            <run bold='true' fontalignment='0' fontcolor='#555555'>&lt;Page Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='test_challenge' name='federated.0m3qgp01gc3ed811t6zk807poeth' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0m3qgp01gc3ed811t6zk807poeth'>
+            <column-instance column='[release_year]' derivation='Attribute' name='[attr:release_year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Rating conjunto]' derivation='InOut' name='[io:Rating conjunto:nk]' pivot='key' type='nominal' />
+            <column-instance column='[rating]' derivation='None' name='[none:rating:nk]' pivot='key' type='nominal' />
+            <column-instance column='[release_year]' derivation='None' name='[none:release_year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[release_year]' derivation='None' name='[none:release_year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[show_id]' derivation='Count' name='[pcto:cnt:show_id:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='ColumnInPane' type='PctTotal' />
+            </column-instance>
+            <column caption='Rating' datatype='string' name='[rating]' role='dimension' type='nominal' />
+            <column caption='Release Year' datatype='integer' name='[release_year]' role='dimension' type='quantitative' />
+            <column caption='Show Id' datatype='integer' name='[show_id]' role='dimension' type='ordinal' />
+            <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:qk]' included-values='in-range'>
+            <min>2015</min>
+            <max>2021</max>
+          </filter>
+          <slices>
+            <column>[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:cnt:show_id:qk:2]' value='p0%' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:cnt:show_id:qk:2]' max='1.0' min='0.0' num-steps='5' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-sequential'>
+                <color>#cfcfcf</color>
+                <color>#abb0be</color>
+                <color>#8a94ad</color>
+                <color>#6d7a9c</color>
+                <color>#53638b</color>
+                <color>#3d4e7b</color>
+                <color>#2a3c6a</color>
+                <color>#1a2c59</color>
+                <color>#0e1e48</color>
+                <color>#051337</color>
+                <color>#000b27</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0m3qgp01gc3ed811t6zk807poeth].[io:Rating conjunto:nk]' />
+              <size column='[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:cnt:show_id:qk:2]' />
+              <text column='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]' />
+              <text column='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:rating:nk]' />
+              <text column='[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:cnt:show_id:qk:2]' />
+              <lod column='[federated.0m3qgp01gc3ed811t6zk807poeth].[attr:release_year:qk]' />
+            </encodings>
+            <customized-tooltip show-buttons='false'>
+              <formatted-text>
+                <run fontcolor='#787878'>Rating:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0m3qgp01gc3ed811t6zk807poeth].[io:Rating conjunto:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Release Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:ok]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Release Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0m3qgp01gc3ed811t6zk807poeth].[attr:release_year:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>% de total Recuento de Show Id junto con Panel (abajo):	</run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <pages>
+          <column>[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:ok]</column>
+        </pages>
+      </table>
+      <simple-id uuid='{88F2F4C2-3F4B-43F0-9507-036135DA4C34}' />
+    </worksheet>
+    <worksheet name='Num of tv shows &amp; movies  by Year'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#555555'>&lt;</run>
+            <run fontalignment='0' fontcolor='#555555'>Sheet Name</run>
+            <run fontalignment='0' fontcolor='#555555'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='test_challenge' name='federated.0m3qgp01gc3ed811t6zk807poeth' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0m3qgp01gc3ed811t6zk807poeth'>
+            <column-instance column='[release_year]' derivation='Attribute' name='[attr:release_year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[show_id]' derivation='Count' name='[cnt:show_id:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[release_year]' derivation='None' name='[none:release_year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[release_year]' derivation='None' name='[none:release_year:qk]' pivot='key' type='quantitative' />
+            <column caption='Release Year' datatype='integer' name='[release_year]' role='dimension' type='quantitative' />
+            <column caption='Show Id' datatype='integer' name='[show_id]' role='dimension' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:qk]' included-values='in-range'>
+            <min>2015</min>
+            <max>2021</max>
+          </filter>
+          <slices>
+            <column>[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' domain-expand='false' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]' field-type='quantitative' major-origin='0' major-spacing='1000' scope='rows' type='space' />
+            <format attr='title' class='0' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]' scope='rows' value='' />
+            <format attr='width' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]' value='45' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:ok]' value='0' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <tooltip column='[federated.0m3qgp01gc3ed811t6zk807poeth].[attr:release_year:qk]' />
+              <text column='[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]' />
+            </encodings>
+            <customized-tooltip show-buttons='false'>
+              <formatted-text>
+                <run fontcolor='#787878'>Release Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0m3qgp01gc3ed811t6zk807poeth].[attr:release_year:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Num of  series +  movies:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-color' value='#000b27' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]</rows>
+        <cols>[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:ok]</cols>
+      </table>
+      <simple-id uuid='{C2AB3291-D9E0-4197-85DB-7323FD3776AE}' />
+    </worksheet>
+    <worksheet name='Series and movies by year'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='0' fontcolor='#555555'>&lt;</run>
+            <run fontalignment='0' fontcolor='#555555'>Sheet Name</run>
+            <run fontalignment='0' fontcolor='#555555'>&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='test_challenge' name='federated.0m3qgp01gc3ed811t6zk807poeth' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0m3qgp01gc3ed811t6zk807poeth'>
+            <column-instance column='[release_year]' derivation='None' name='[none:release_year:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[release_year]' derivation='None' name='[none:release_year:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[type]' derivation='None' name='[none:type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[release_year]' derivation='Attribute' name='[pcto:attr:release_year:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='ColumnInPane' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[show_id]' derivation='Count' name='[pcto:cnt:show_id:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='ColumnInPane' type='PctTotal' />
+            </column-instance>
+            <column caption='Release Year' datatype='integer' name='[release_year]' role='dimension' type='quantitative' />
+            <column caption='Show Id' datatype='integer' name='[show_id]' role='dimension' type='ordinal' />
+            <column caption='Type' datatype='string' name='[type]' role='dimension' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:qk]' included-values='in-range'>
+            <min>2015</min>
+            <max>2021</max>
+          </filter>
+          <manual-sort column='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;Movie&quot;</bucket>
+              <bucket>&quot;TV Show&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:cnt:show_id:qk:2]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:cnt:show_id:qk:2]' value='p0%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-orientation' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:ok]' value='0' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='col-width' field='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]' value='80' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]' />
+              <tooltip column='[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:attr:release_year:qk]' />
+              <text column='[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:cnt:show_id:qk:2]' />
+              <lod column='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]' />
+            </encodings>
+            <customized-tooltip show-buttons='false'>
+              <formatted-text>
+                <run fontcolor='#787878'>Release Year:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0m3qgp01gc3ed811t6zk807poeth].[attr:release_year:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Num of  series +  movies:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0m3qgp01gc3ed811t6zk807poeth].[cnt:show_id:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-color' value='#4c7cb6' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:cnt:show_id:qk:2]</rows>
+        <cols>[federated.0m3qgp01gc3ed811t6zk807poeth].[none:release_year:ok]</cols>
+        <percentages enabled='true' mode='column-in-pane' />
+      </table>
+      <simple-id uuid='{60736E7B-2A43-4351-90A0-BEA220BAEB1F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>¿What kind of entreteiment is Netflix  doing?
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='dash-subtitle'>
+          <format attr='background-color' value='#00000000' />
+        </style-rule>
+      </style>
+      <size maxheight='1500' maxwidth='1000' minheight='1500' minwidth='1000' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49467' id='16' param='horz' type-v2='layout-flow' w='98400' x='800' y='533'>
+            <zone h='49467' id='14' type-v2='layout-basic' w='98400' x='800' y='533'>
+              <zone h='24728' id='5' param='vert' type-v2='layout-flow' w='98400' x='800' y='533'>
+                <zone h='2666' id='7' type-v2='title' w='98400' x='800' y='533'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='50' h='3333' id='24' is-fixed='true' param='horz' type-v2='layout-flow' w='98400' x='800' y='3199' />
+                <zone h='18729' id='6' type-v2='layout-basic' w='98400' x='800' y='6532'>
+                  <zone h='18729' id='8' param='horz' type-v2='layout-flow' w='98400' x='800' y='6532'>
+                    <zone h='18729' id='9' name='Num of tv shows &amp; movies  by Year' w='40600' x='800' y='6532'>
+                      <layout-cache cell-count-w='6' minheight='148' non-cell-size-w='46' type-h='scalable' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone forceUpdate='true' h='18729' id='10' type-v2='text' w='21700' x='41400' y='6532'>
+                      <formatted-text>
+                        <run fontalignment='0' fontcolor='#555555' fontsize='12'>In the 4th lustrum of the century,</run>
+                        <run fontalignment='0' fontcolor='#ee1c25' fontsize='12'>Æ </run>
+                        <run bold='true' fontalignment='0' fontcolor='#ee1c25' fontsize='12'>Netflix</run>
+                        <run fontalignment='0' fontcolor='#555555' fontsize='12'>&apos;s content </run>
+                        <run bold='true' fontalignment='0' fontcolor='#555555' fontsize='12'>increased</run>
+                        <run fontalignment='0' fontcolor='#555555' fontsize='12'>.</run>
+                        <run fontalignment='0'>Æ&#10;</run>
+                        <run fontalignment='0' fontcolor='#555555' fontsize='12'>Since the pandemic, the production of content fell, but...</run>
+                        <run fontalignment='0'>Æ&#10;</run>
+                        <run fontalignment='0' fontcolor='#555555' fontsize='12'>How did Netflix </run>
+                        <run bold='true' fontalignment='0' fontcolor='#555555' fontsize='12'>keep releasing</run>
+                        <run fontalignment='0' fontcolor='#555555' fontsize='12'> content?</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='18729' id='13' name='Series and movies by year' w='36100' x='63100' y='6532'>
+                      <layout-cache cell-count-w='6' minheight='148' non-cell-size-w='1' type-h='scalable' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='21533' id='11' param='vert' type-v2='layout-flow' w='98400' x='800' y='28467'>
+                <zone h='21533' id='12' param='horz' type-v2='layout-flow' w='98400' x='800' y='28467'>
+                  <zone h='21533' id='21' name='Growth by reating for each year' show-title='false' w='98400' x='800' y='28467'>
+                    <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='3206' id='25' type-v2='empty' w='98400' x='800' y='25261'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='24734' id='26' type-v2='empty' w='98400' x='800' y='74733'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone fixed-size='484' h='24733' id='18' is-fixed='true' name='Num of series by rating for year' w='98400' x='800' y='50000'>
+            <layout-cache type-h='fixed' type-w='fixed' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='1600' id='17' name='Series and movies by year' pane-specification-id='0' param='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]' show-title='false' type-v2='color' w='21300' x='81100' y='6867' />
+        <zone count='1' h='7067' id='20' name='Num of series by rating for year' name1='Growth by reating for each year' synchronized='1' type-v2='currpage' w='16800' x='72100' y='46933' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{26DC6A46-0639-4931-9FA3-0EE0A0FA99DF}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1 (2)'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>¿What kind of entreteiment is Netflix  doing?
+</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style>
+        <style-rule element='dash-subtitle'>
+          <format attr='background-color' value='#00000000' />
+        </style-rule>
+      </style>
+      <size maxheight='1500' maxwidth='1000' minheight='1500' minwidth='1000' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='49467' id='16' param='horz' type-v2='layout-flow' w='98400' x='800' y='533'>
+            <zone h='49467' id='14' type-v2='layout-basic' w='98400' x='800' y='533'>
+              <zone h='24728' id='5' param='vert' type-v2='layout-flow' w='98400' x='800' y='533'>
+                <zone h='2666' id='7' type-v2='title' w='98400' x='800' y='533'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='50' h='3333' id='24' is-fixed='true' param='horz' type-v2='layout-flow' w='98400' x='800' y='3199' />
+                <zone h='18729' id='6' type-v2='layout-basic' w='98400' x='800' y='6532'>
+                  <zone h='18729' id='8' param='horz' type-v2='layout-flow' w='98400' x='800' y='6532'>
+                    <zone h='18729' id='9' name='Num of tv shows &amp; movies  by Year' w='40600' x='800' y='6532'>
+                      <layout-cache cell-count-w='6' minheight='148' non-cell-size-w='46' type-h='scalable' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone forceUpdate='true' h='18729' id='10' type-v2='text' w='21700' x='41400' y='6532'>
+                      <formatted-text>
+                        <run fontalignment='0' fontcolor='#555555' fontsize='12'>In the 4th lustrum of the century,</run>
+                        <run fontalignment='0' fontcolor='#ee1c25' fontsize='12'>Æ </run>
+                        <run bold='true' fontalignment='0' fontcolor='#ee1c25' fontsize='12'>Netflix</run>
+                        <run fontalignment='0' fontcolor='#555555' fontsize='12'>&apos;s content </run>
+                        <run bold='true' fontalignment='0' fontcolor='#555555' fontsize='12'>increased</run>
+                        <run fontalignment='0' fontcolor='#555555' fontsize='12'>.</run>
+                        <run fontalignment='0'>Æ&#10;</run>
+                        <run fontalignment='0' fontcolor='#555555' fontsize='12'>Since the pandemic, the production of content fell, but...</run>
+                        <run fontalignment='0'>Æ&#10;</run>
+                        <run fontalignment='0' fontcolor='#555555' fontsize='12'>How did Netflix </run>
+                        <run bold='true' fontalignment='0' fontcolor='#555555' fontsize='12'>keep releasing</run>
+                        <run fontalignment='0' fontcolor='#555555' fontsize='12'> content?</run>
+                      </formatted-text>
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                    <zone h='18729' id='13' name='Series and movies by year' w='36100' x='63100' y='6532'>
+                      <layout-cache cell-count-w='6' minheight='148' non-cell-size-w='1' type-h='scalable' type-w='cell' />
+                      <zone-style>
+                        <format attr='border-color' value='#000000' />
+                        <format attr='border-style' value='none' />
+                        <format attr='border-width' value='0' />
+                        <format attr='margin' value='4' />
+                      </zone-style>
+                    </zone>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='21533' id='11' param='vert' type-v2='layout-flow' w='98400' x='800' y='28467'>
+                <zone h='21533' id='12' param='horz' type-v2='layout-flow' w='98400' x='800' y='28467'>
+                  <zone h='21533' id='21' name='Growth by reating for each year' show-title='false' w='98400' x='800' y='28467'>
+                    <layout-cache cell-count-w='1' type-h='cell' type-w='cell' />
+                    <zone-style>
+                      <format attr='border-color' value='#000000' />
+                      <format attr='border-style' value='none' />
+                      <format attr='border-width' value='0' />
+                      <format attr='margin' value='4' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='3206' id='25' type-v2='empty' w='98400' x='800' y='25261'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone h='24734' id='26' type-v2='empty' w='98400' x='800' y='74733'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone fixed-size='484' h='24733' id='18' is-fixed='true' name='Num of series by rating for year' w='98400' x='800' y='50000'>
+            <layout-cache type-h='fixed' type-w='fixed' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='1600' id='17' name='Series and movies by year' pane-specification-id='0' param='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]' show-title='false' type-v2='color' w='21300' x='81100' y='6867' />
+        <zone count='1' h='7067' id='20' name='Num of series by rating for year' name1='Growth by reating for each year' synchronized='1' type-v2='currpage' w='16800' x='72100' y='46933' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='2' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='84000' id='1' param='vert' type-v2='layout-flow' w='84000' x='8000' y='8000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{EED2C23F-FB0B-4CE4-8727-61BD3DF1EB4C}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Num of tv shows &amp; movies  by Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9E4B2C5D-9F59-47C0-83B1-104111AC0FFC}' />
+    </window>
+    <window class='worksheet' name='Series and movies by year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{C773BE72-C408-4063-A9D1-EE8C9A8E9710}' />
+    </window>
+    <window class='worksheet' name='Num of series by rating for year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card type='currpage' />
+            <card pane-specification-id='0' param='[federated.0m3qgp01gc3ed811t6zk807poeth].[io:Rating conjunto:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2020</bucket>
+          </multibucket>
+        </current-page>
+      </viewpoint>
+      <simple-id uuid='{3676897F-28E3-4B09-94DE-0AB4A275C5CB}' />
+    </window>
+    <window class='worksheet' name='Growth by reating for each year'>
+      <cards>
+        <edge name='left'>
+          <strip size='288'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='175'>
+            <card pane-specification-id='0' param='[federated.0m3qgp01gc3ed811t6zk807poeth].[pcto:cnt:show_id:qk:2]' type='size' />
+            <card type='currpage' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <current-page>
+          <multibucket>
+            <bucket>2020</bucket>
+          </multibucket>
+        </current-page>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{E9EB9A4B-2890-443D-AD4B-FA46842D54E9}' />
+    </window>
+    <window class='worksheet' name='Num of id&apos;s by reating'>
+      <cards>
+        <edge name='left'>
+          <strip size='288'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card pane-specification-id='0' param='[federated.0m3qgp01gc3ed811t6zk807poeth].[none:type:nk]' type='color' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='fit-width' />
+      </viewpoint>
+      <simple-id uuid='{3FF57DF5-AAE4-4283-BD44-350BFA783437}' />
+    </window>
+    <window class='worksheet' name='Hoja 6'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9338CC1B-A1A0-4420-8737-75BAAD1A202C}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Growth by reating for each year'>
+          <current-page>
+            <multibucket>
+              <bucket>2020</bucket>
+            </multibucket>
+          </current-page>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Num of series by rating for year'>
+          <current-page>
+            <multibucket>
+              <bucket>2020</bucket>
+            </multibucket>
+          </current-page>
+        </viewpoint>
+        <viewpoint name='Num of tv shows &amp; movies  by Year'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Series and movies by year'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='20' />
+      <simple-id uuid='{48E2AE6B-B5E1-47F6-BBDC-DE35CE0D0F94}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1 (2)'>
+      <viewpoints>
+        <viewpoint name='Growth by reating for each year'>
+          <current-page>
+            <multibucket>
+              <bucket>2020</bucket>
+            </multibucket>
+          </current-page>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Num of series by rating for year'>
+          <current-page>
+            <multibucket>
+              <bucket>2020</bucket>
+            </multibucket>
+          </current-page>
+        </viewpoint>
+        <viewpoint name='Num of tv shows &amp; movies  by Year'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Series and movies by year'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{B03A4FC7-3065-4E36-9527-544DBA16667C}' />
+    </window>
+  </windows>
+</workbook>

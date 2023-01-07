@@ -1,0 +1,21 @@
+Current version: 5.1
+
+
+
+current notebook: Challenge Dashboard v4.twb
+current dashboard: Challenge v5_1.ipynb
+
+OutputNotebook: df_netflix_prime_disney.csv (moved to data for viz)
+
+Colours used on Tableau:
+#F22929
+#002B40
+#02485C
+#0367A6 Disney +
+#55C1D9 Amazon Prime
+#F2293A Netflix
+
+Data Source:
+https://www.kaggle.com/datasets/shivamb/netflix-shows
+https://www.kaggle.com/datasets/shivamb/amazon-prime-movies-and-tv-shows
+https://www.kaggle.com/datasets/shivamb/disney-movies-and-tv-shows/metadata
